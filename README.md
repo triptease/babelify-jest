@@ -1,6 +1,7 @@
-# babel-jest
+# babelify-jest
 
-[Babel](https://github.com/babel/babel) [jest](https://github.com/facebook/jest) plugin
+[Babel](https://github.com/babel/babel) [jest](https://github.com/facebook/jest) plugin which handles babelify modules
+gently.
 
 ## Usage
 
@@ -16,7 +17,7 @@ Make the following changes to `package.json`:
     "test": "jest"
   },
   "jest": {
-    "scriptPreprocessor": "<rootDir>/node_modules/babel-jest",
+    "scriptPreprocessor": "<rootDir>/node_modules/babelify-jest",
     "testFileExtensions": ["es6", "js"],
     "moduleFileExtensions": ["js", "json", "es6"]
   }
