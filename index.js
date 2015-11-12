@@ -14,7 +14,7 @@ module.exports = {
             for (var s = pathSegments.length - 1; s > 0; --s) {
                 var segment = pathSegments[s];
                 if (segment === "node_modules") {
-                    return pathSegments.slice(0, s + 1).join("/");
+                    return pathSegments.slice(0, s + 2).join(path.sep);
                 }
             }
         };
