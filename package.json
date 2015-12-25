@@ -3,6 +3,5 @@
   "version": "0.1.0",
   "repository": "pnuzhdin/babelify-jest",
   "dependencies": {
-    "babel-core": "^5.8.0"
   }
 }
